@@ -1,4 +1,4 @@
-pacman -S --needed git base-devel
+sudo pacman -S --needed git base-devel
 
 cd $HOME
 git clone --separate-git-dir=$HOME/.dotfiles https://github.com/chkg2a/dotfiles.git tmpdotfiles
@@ -14,6 +14,5 @@ sudo make -C ~/.local/share/clone/dwmblocks install
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-yay -S libxft-bgra-git yt-dlp-drop-in
 
 exit

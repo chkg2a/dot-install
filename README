@@ -1,6 +1,0 @@
-# Installation Instruction
-
-Just clone using
-`git clone https://github.com/chkg2a/dot-install`
-`chmod +x dot-install/installer.sh`
-`sh dot-install/installer.sh`
