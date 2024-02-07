@@ -1,4 +1,4 @@
-sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr
+sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr zsh
 
 cd $HOME
 git clone https://github.com/chkg2a/dotfiles.git dotfiles
