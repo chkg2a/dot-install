@@ -1,4 +1,4 @@
-sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr
+sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr midori ttf-jetbrains-mono-nerd
 
 cd $HOME
 git clone https://github.com/chkg2a/dotfiles.git dotfiles
@@ -16,6 +16,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-yay -S wezterm pipewire-pulse
+yay -S wezterm pipewire-pulse 
 
 exit
