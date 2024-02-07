@@ -29,3 +29,6 @@ cp -r ~/.zshrc ~/.config/nvim ~/dotfiles
 ```
 cd ~/dotfiles && stow --adopt .
 ```
+### Make A Git repo
+
+And push it
