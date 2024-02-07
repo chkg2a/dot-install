@@ -1,4 +1,4 @@
-sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr midori ttf-jetbrains-mono-nerd upower zsh
+sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr midori ttf-jetbrains-mono-nerd upower zsh btop
 
 cd $HOME
 git clone https://github.com/chkg2a/dotfiles.git dotfiles
