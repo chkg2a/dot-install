@@ -1,10 +1,12 @@
-sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr midori ttf-jetbrains-mono-nerd upower zsh btop feh
+sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr midori ttf-jetbrains-mono-nerd upower zsh btop feh zoxide
 
 cd $HOME
 git clone https://github.com/chkg2a/dotfiles.git dotfiles
 cd $HOME/dotfiles/
 git submodule update --init --recursive
-stow --adopt .
+cp -r .config .local .xinitrc .zprofile .zshrc .oh-my-zsh $HOME
+chsh /bin/zsh
+# stow --adopt .
 
 #Install suckless utils
 sudo make -C ~/.local/share/clone/dwm install
@@ -18,4 +20,4 @@ makepkg -si
 
 yay -S wezterm pipewire-pulse lsd spotify-adblock
 
-exit
+zsh
