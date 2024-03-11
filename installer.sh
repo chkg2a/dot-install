@@ -1,4 +1,4 @@
-sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper firefox stow xcompmgr ttf-jetbrains-mono-nerd upower zsh btop feh zoxide unzip python3 npm ncdu
+sudo pacman -S --needed git base-devel networkmanager xorg xorg-server xorg-xinit pipewire xwallpaper brave-bin stow xcompmgr ttf-jetbrains-mono-nerd upower zsh btop feh zoxide unzip python3 npm ncdu
 
 cd $HOME
 git clone https://github.com/chkg2a/dotfiles.git dotfiles
